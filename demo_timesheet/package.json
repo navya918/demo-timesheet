@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "canvas-confetti": "^1.9.3",
+    "lucide-react": "^0.453.0"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.6.4"
+  },
+  "scripts": {
+  "start": "node --max-old-space-size=4096 node_modules/.bin/react-scripts start"
+},
+"jest": {
+  "transform": {
+    "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
+  },
+  "transformIgnorePatterns": [
+    "/node_modules/(?!axios)/"
+  ]
+}
+
+  
+}
+
